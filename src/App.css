@@ -1,0 +1,438 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #cccccc;
+  height: 100%;
+}
+.middle-bar {
+  display: grid;
+  grid-template-columns: 75px 250px 1fr 2fr;
+  align-items: center;
+  height: 100%;
+  
+}
+
+.app-container {
+  display: grid;
+  grid-template-rows: 1fr 6fr 1fr;
+  height: 100%;
+}
+
+.header {
+  height: 100%
+}
+
+.mined-blocks {
+  width: 100%;
+}
+
+.form-row {
+  display: flex;
+ flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-items: start;
+  max-width: 100%;
+  margin: 0px 10px;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+
+}
+.sidebar {
+  height: 100%;
+}
+.form_info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+
+}
+
+.message_info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  
+
+}
+
+.full-message {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.message-width{
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.emails-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  padding: 0px 10px;
+ 
+}
+
+.table-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  height: 40px;
+  overflow-x: auto;
+  border: 1px solid #cccccc;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.grid-table {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 100%;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+}
+
+.sidebar-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+}
+
+
+.former-header-title {
+  margin-top: 0px;
+    margin-bottom: 20px;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    color: #2d323e;
+    font-size: 26px;
+    line-height: 130%;
+    font-weight: 500;
+    text-align: center;
+
+}
+
+
+.form-padding-right {
+  margin-right: 2.5px
+}
+
+.form-padding-left {
+  margin-left: 2.5px
+}
+
+.form-input {
+  padding: 12.5px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  margin-bottom: 10px;
+ 
+}
+
+.search-input {
+  padding: 12.5px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  color: #cccccc !important;
+  font-size: 14px;
+
+}
+.lab,
+.las {
+  color: #cccccc;
+  font-size: 28px;
+  padding: 10px;
+}
+
+.sidebar-icons-top {
+  margin: 20px 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-icons-bottom {
+  margin: 20px 0px;
+}
+
+.message-row {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+  width: 100%;
+  justify-content: space-between;
+  
+  
+  padding: 10px;
+
+}
+
+.message-top-left {
+  max-width: 100px;
+  overflow-x: scroll;
+
+}
+
+.emails-row {
+  width: 100%;
+}
+
+.message-top-right {
+  margin-left: 10px
+}
+
+.conform-input {
+  padding: 12.5px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  margin-bottom: 10px;
+  overflow-x: scroll;
+  margin-top: 10px;
+  max-width: 250px;
+ 
+}
+
+.message-column {
+  width: 100%;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.flex-column-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+
+
+input::-webkit-input-placeholder{
+  color: #cccccc;
+  font-size: 14px;
+}
+
+.line-row {
+  border-top: 1px solid #e4e4e4;
+  width: 100%;
+  margin: 20px 0px;
+}
+
+input:hover {
+  border: 1px solid #009da3;
+  border-radius: 5px;
+}
+
+.form-title {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.form-width {
+  width: 100%;
+}
+
+.form-header-subtitle {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  color: rgba(55, 66, 82, 0.8);
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.message-header-subtitle {
+
+  margin: 5px 0px;
+  color: rgba(55, 66, 82, 0.8);
+  font-size: 18px;
+  font-weight: 500;
+
+}
+
+input,
+input[type=text],
+input[type=password] {
+    box-sizing : border-box;
+    color: #cccccc !important;
+    font-family: 'Poppins', sans-serif;
+}
+
+.flex__row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+
+  justify-content: flex-start;
+}
+
+.flex__spread {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.padding-header {
+  padding: 10px 20px;
+  border-bottom: 1px solid #cccccc;
+  
+}
+
+
+
+
+
+.form-key-row {
+  display: flex;
+
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.form-send {
+  width: 100%;
+  padding: 12.5px;
+  background-color: #009da3;
+
+  font-weight: 700;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 5px;
+
+  font-size: 14px;
+  
+}
+
+.form-search {
+
+
+  background-color: transparent;
+
+
+  border: none;
+  color: #cccccc;
+
+
+
+  
+}
+
+.smaller-coin {
+  font-size: 18px !important;
+}
+
+.background-image {
+  width: 50px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+
+
+  object-fit: cover;
+  object-position: center right;
+}
+
+.form-send:hover {
+  border-radius: 5px;
+  border:none;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1040;
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+  opacity: .5;
+}
+
+.modal-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1050;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  outline: 0;
+}
+
+.modal {
+  z-index: 100;
+  background: white;
+  position: relative;
+  margin: 1.75rem auto;
+  border-radius: 3px;
+  max-width: 500px;
+  padding: 2rem;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.modal-close-button {
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #000;
+  opacity: .3;
+  cursor: pointer;
+  border: none;
+}
+
+.button-default {
+  background: #247BA0;
+  color: #fff;
+}
